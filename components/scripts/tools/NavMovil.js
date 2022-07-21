@@ -34,9 +34,15 @@ function selectNavMovil () {
     if( location == "/" || location == "/Pet_Work/" ){
         navOption = {
             home : location == "/Pet_Work/" ?"/Pet_Work/" :".",
-            message : "components/pages/message.html",
-            notification : "components/pages/communities.html",
-            profile : "components/pages/profile.html",
+            message : location == "/Pet_Work/"
+                ?"/Pet_Work/components/pages/message.html" 
+                :"components/pages/message.html",
+            notification : location == "/Pet_Work/"
+                ?"/Pet_Work/components/pages/communities.html" 
+                :"components/pages/communities.html",
+            profile : location == "/Pet_Work/"
+                ?"/Pet_Work/components/pages/profile.html" 
+                :"components/pages/profile.html",
         }
     }
 
