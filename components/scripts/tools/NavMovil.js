@@ -25,7 +25,7 @@ function selectNavMovil () {
     
 
     let navOption = {
-        home : "../..",
+        home : /Pet_Work/.test(document.location.pathname) ?"../.." :"/Pet_Work/",
         message : path + "message.html",
         notification : path + "communities.html",
         profile : path + "profile.html",
