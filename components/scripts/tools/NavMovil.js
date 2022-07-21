@@ -44,6 +44,7 @@ function selectNavMovil () {
                 ?"/Pet_Work/components/pages/profile.html" 
                 :"components/pages/profile.html",
         }
+        console.log(navOption)
     }
 
     for (const key in navOption) {
