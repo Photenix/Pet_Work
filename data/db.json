@@ -1,0 +1,111 @@
+{   
+    "profile": {
+        "user":{
+            "name": "Juan Pino",
+            "profession": "Music",
+            "img": "https://res.cloudinary.com/photenix/image/upload/v1658425725/pets/pj/Rectangle_48_geihp7.png",
+            "following": 400,
+            "followers": 14000
+        },
+        "post":[
+            {
+                "likes": 400,
+                "messages": 570,
+                "sends": 400,
+                "img": "https://res.cloudinary.com/photenix/image/upload/v1658425694/pets/cat02_yb6em7.png",
+                "isLike": true,
+                "isMessage": false,
+                "isSend": false
+            },
+            {
+                "likes": 4000,
+                "messages": 5600,
+                "sends": 500,
+                "img": "https://res.cloudinary.com/photenix/image/upload/v1658425121/pets/cat_zuvwom.png",
+                "isLike": true,
+                "isMessage": true,
+                "isSend": true
+            }
+        ],
+        "favorites":[
+
+        ]
+    },
+    "products":{
+        "pets":[
+            {
+                "user":{
+                    "name": "Hittler",
+                    "relation": "pet shop"
+                },
+                "basic":{
+                    "name": "Katty the cat",
+                    "gender": "female",
+                    "breed": "criollo",
+                    "color": "brown",
+                    "cellNumber": "310-032-4165",
+                    "hasLike": false,
+                    "price": 450
+                },
+                "characteristis":{
+                    "isNeuteret": false,
+                    "hasVacun": true
+                },
+                "info": "Este gato es heredero de un rei turco solo acepta comida de alta finura no le gustan los pobres y se dice que ha cometido crimenes contra la humanidad... pero es algo que se dice en voz baja."
+            },
+            {
+                "user":{
+                    "name": "Mussolini",
+                    "relation": "Comunista"
+                },
+                "basic":{
+                    "name": "Michi de muso",
+                    "gender": "male",
+                    "breed": "perza",
+                    "color": "white",
+                    "cellNumber": "666-666-6666",
+                    "hasLike": true,
+                    "price": 45060000
+                },
+                "characteristis":{
+                    "isNeuteret": false,
+                    "hasVacun": true
+                },
+                "info": "Se dice que en las oscuras noches de rusia hay un gato que salva la casta aria, michi de muso vino a salvar la verdadera raza gatuna, no le gustan los ladrones, ni los negros, ni los judios, ni los maquetadores, odia el css y tambien el boostrap... algun dia el cumplira su promesa de hacer el mundo seguro para el front-end y que no lo confundan con un asquero maquetador."
+            }
+        ],
+        "objets":[
+            
+        ]
+    },
+    "message":[
+        {
+            "user": "El hombre sin camisa",
+            "join": "Vende camisas a domicilio",
+            "num": "100"
+        },
+        {
+            "user": "El hombre con camisa",
+            "join": "Le quita la camisa a la gente para luego venderlo",
+            "num": "50"
+        },
+        {
+            "user": "El hombre sin hotel",
+            "join": "Se mete a casas ajenas a buscarl shampoo",
+            "num": "1"
+        },
+        {
+            "user": "El hombre acosador",
+            "join": "Busca siemrpe al hombre con camisa, el hombre sin camisa le coloco una restridsino por ser un acosador",
+            "num": "10"
+        },
+        {
+            "user": "Jenis",
+            "join": "Se que estas leyendo esto dejame ver a los niños",
+            "num": "5"
+        }
+    ],
+    "cart":[
+
+    ]
+}

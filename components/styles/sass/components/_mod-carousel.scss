@@ -1,0 +1,37 @@
+.carousel-indicators{
+    button{
+        background-color: #C4C4C4 !important;
+        border-radius: 2.5px !important;
+    }
+    .active{
+        background-color: #24202A !important;
+        width: 5px;
+        height: 5px;
+        border-radius: 50% !important;
+    }
+}
+
+.carousel-item{
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        clip-path: polygon(100% 0px, 100% 100%, 50% 90%, 0px 100%, 0px 0px);
+        background-color: #FED45B;
+        border-radius: 20px;
+    }
+    img{
+        z-index: 2;
+        position: relative;
+    }
+}
+
+.carousel-control-prev{
+    left: -30px;
+}
+
+.carousel-control-next{
+    right: -30px;
+}

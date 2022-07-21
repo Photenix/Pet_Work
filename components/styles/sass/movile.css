@@ -1,0 +1,92 @@
+.nav-movil {
+  background: #24202A;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px !important;
+  position: fixed;
+  bottom: 0px;
+  overflow-y: hidden;
+  /* position: relative;
+  left: 0px; 
+  right: 35px; */
+}
+.nav-movil .main {
+  background-color: #23F3DF;
+  position: relative;
+  top: -6px;
+  height: 80%;
+  width: 15%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-movil li {
+  color: white !important;
+}
+.nav-movil li .select {
+  color: #FFDE5A !important;
+}
+.nav-movil li .select::before {
+  content: "";
+  width: 38px;
+  height: 10px;
+  background-color: #FFDE5A !important;
+  border-radius: 20px;
+  position: absolute;
+  top: -5px;
+}
+.nav-movil li .select i {
+  color: #FFDE5A !important;
+}
+.nav-movil li a {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 8px;
+}
+.nav-movil li a i {
+  color: white !important;
+  font-size: 25px;
+}
+
+.nav-options {
+  width: 100%;
+  padding: 0 60px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-options li .active {
+  color: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-options li .active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  background-color: #FFDE5A;
+  border-radius: 24px 24px 0 0;
+  bottom: -10px;
+}
+.nav-options a {
+  color: #ACACAC;
+  text-decoration: none;
+}
+
+.movile {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+}/*# sourceMappingURL=movile.css.map */

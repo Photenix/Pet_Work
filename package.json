@@ -1,0 +1,23 @@
+{
+  "name": "proyecto",
+  "description": "**En este proyecto buscamos que logres evidenciar tus conceptos avanzados de fundamentos web,haciendo uso de HTML, CSS e implementando JavaScript moderno.\r Además que sustentar los conocimientod adquiridos haciendo uso de marcos de trabajo CSS, implementación de preprocesadores y realizar páginas interactivas con JavaScript vanilla integrando Webpack y Babel**",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "JM4P1R0",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "bootstrap": "^5.2.0-beta1",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.5"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.8.3",
+    "json-server": "^0.17.0"
+  }
+}
