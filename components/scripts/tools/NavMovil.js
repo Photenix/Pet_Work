@@ -44,8 +44,9 @@ function selectNavMovil () {
                 ?"/Pet_Work/components/pages/profile.html" 
                 :"components/pages/profile.html",
         }
-        console.log(navOption)
     }
+
+    console.log( path, navOption)
 
     for (const key in navOption) {
         const selectionNav = navMovil.querySelector(`#nav-${key}`)
